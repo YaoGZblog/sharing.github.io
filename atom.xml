@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://yaogzblog.github.io/sharing.github.io/</id>
     <title>love and share</title>
-    <updated>2020-07-02T05:58:31.276Z</updated>
+    <updated>2020-07-02T06:02:04.891Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://yaogzblog.github.io/sharing.github.io/"/>
     <link rel="self" href="https://yaogzblog.github.io/sharing.github.io/atom.xml"/>
@@ -36,8 +36,8 @@ Each <strong>voxel</strong> correspomds to a spatial location and has a number a
 Bold fMRI: Blood Oxygenation level<br>
 Hemodynamic response function(HSF): repsent changes in the fMRI signal triggered by neuroual activity</p>
 <h1 id="three-main-goals-of-fmri-data"><strong>Three main goals of fMRI data</strong></h1>
-<p><strong>First: Localization</strong></p>
-<p>**Sencond: Connectivity **</p>
+<p>First: Localization</p>
+<p>Sencond: Connectivity</p>
 <ul>
 <li>determine how different brain regions are connected with one another</li>
 <li>varities of connectivity:</li>
@@ -52,7 +52,7 @@ Hemodynamic response function(HSF): repsent changes in the fMRI signal triggered
 - independent / princioal componts<br>
 - graphical models</li>
 </ul>
-<p><strong>Third: Prediction</strong><br>
+<p>Third: Prediction<br>
 use a person's brain activity to predict their preceptions, behavior, or health status<br>
 Applications: Depression, Chronic pain, Anxiety, Drug abuse, Emotion</p>
 ]]></content>
