@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://yaogzblog.github.io/sharing.github.io/</id>
     <title>love and share</title>
-    <updated>2020-07-02T05:56:31.513Z</updated>
+    <updated>2020-07-02T05:58:31.276Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://yaogzblog.github.io/sharing.github.io/"/>
     <link rel="self" href="https://yaogzblog.github.io/sharing.github.io/atom.xml"/>
@@ -18,8 +18,8 @@
         <updated>2020-07-01T07:14:01.000Z</updated>
         <content type="html"><![CDATA[<h1 id="part1-multiple-measures"><strong>Part1  Multiple Measures</strong></h1>
 <p>Brain imaging can be separated into two major categories, which are<br>
-<strong>structural</strong> brain imaging and <strong>functional</strong> brain imaging<br>
-<strong>Structural changes</strong></p>
+<strong>structural</strong> brain imaging and <strong>functional</strong> brain imaging</p>
+<p><strong>Structural changes</strong></p>
 <ul>
 <li>Gray matter</li>
 <li>White matter tracts</li>
@@ -36,8 +36,8 @@ Each <strong>voxel</strong> correspomds to a spatial location and has a number a
 Bold fMRI: Blood Oxygenation level<br>
 Hemodynamic response function(HSF): repsent changes in the fMRI signal triggered by neuroual activity</p>
 <h1 id="three-main-goals-of-fmri-data"><strong>Three main goals of fMRI data</strong></h1>
-<p><strong>First: Localization</strong><br>
-**Sencond: Connectivity **</p>
+<p><strong>First: Localization</strong></p>
+<p>**Sencond: Connectivity **</p>
 <ul>
 <li>determine how different brain regions are connected with one another</li>
 <li>varities of connectivity:</li>
@@ -50,11 +50,11 @@ Hemodynamic response function(HSF): repsent changes in the fMRI signal triggered
 - dynamic causal modeling</li>
 <li>Multivariate connectivity<br>
 - independent / princioal componts<br>
-- graphical models<br>
-<strong>Third: Prediction</strong><br>
-use a person's brain activity to predict their preceptions, behavior, or health status<br>
-Applications: Depression, Chronic pain, Anxiety, Drug abuse, Emotion</li>
+- graphical models</li>
 </ul>
+<p><strong>Third: Prediction</strong><br>
+use a person's brain activity to predict their preceptions, behavior, or health status<br>
+Applications: Depression, Chronic pain, Anxiety, Drug abuse, Emotion</p>
 ]]></content>
     </entry>
 </feed>
