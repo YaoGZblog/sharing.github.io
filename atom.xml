@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://yaogzblog.github.io/sharing.github.io/</id>
     <title>love and share</title>
-    <updated>2020-07-02T06:07:22.991Z</updated>
+    <updated>2020-07-04T09:13:38.453Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://yaogzblog.github.io/sharing.github.io/"/>
     <link rel="self" href="https://yaogzblog.github.io/sharing.github.io/atom.xml"/>
@@ -55,6 +55,19 @@ Hemodynamic response function(HSF): repsent changes in the fMRI signal triggered
 <p>Third: Prediction<br>
 use a person's brain activity to predict their preceptions, behavior, or health status<br>
 Applications: Depression, Chronic pain, Anxiety, Drug abuse, Emotion</p>
+<h1 id="part3-fmri-data-structure-terminology"><strong>Part3 fMRI Data Structure &amp;Terminology</strong></h1>
+<p><strong>Temporal resolution</strong>: determines our ability to separate brain events in times, and it's determined by how quickly each individual image is required(TR)<br>
+<strong>Spatial resolution</strong>: determines our ability to distinguish changes in an image across different spatial location<br>
+<strong>Structural(T1) images:</strong></p>
+<ul>
+<li>High spatial resolution</li>
+<li>Low temporal resolution</li>
+<li>Can different types of tissue<br>
+<strong>Functional(T2) images:</strong></li>
+<li>Lower spatial resolution</li>
+<li>Higher temporal resulation</li>
+<li>Can relate changes in signal to an experimental manipulation</li>
+</ul>
 ]]></content>
     </entry>
 </feed>
