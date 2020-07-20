@@ -1,22 +1,104 @@
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://yaogzblog.github.io/sharing.github.io/</id>
-    <title>love and share</title>
-    <updated>2020-07-20T08:27:14.949Z</updated>
-    <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://yaogzblog.github.io/sharing.github.io/"/>
-    <link rel="self" href="https://yaogzblog.github.io/sharing.github.io/atom.xml"/>
-    <subtitle>分享我所热爱</subtitle>
-    <logo>https://yaogzblog.github.io/sharing.github.io/images/avatar.png</logo>
-    <icon>https://yaogzblog.github.io/sharing.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, love and share</rights>
-    <entry>
-        <title type="html"><![CDATA[Principles of fMRI--Noise, Design and Pre-processing]]></title>
-        <id>https://yaogzblog.github.io/sharing.github.io/post/principles-of-fmri-noise-design-and-pre-processing/</id>
-        <link href="https://yaogzblog.github.io/sharing.github.io/post/principles-of-fmri-noise-design-and-pre-processing/">
-        </link>
-        <updated>2020-07-20T06:08:25.000Z</updated>
-        <content type="html"><![CDATA[<h1 id="artifacts-and-noise">Artifacts and Noise</h1>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>Principles of fMRI--Noise, Design and Pre-processing | love and share</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://yaogzblog.github.io/sharing.github.io//favicon.ico?v=1595233627547">
+<link rel="stylesheet" href="https://yaogzblog.github.io/sharing.github.io//styles/main.css">
+
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
+    <meta name="description" content="Artifacts and Noise
+Sourse of noise
+
+Thermal motion(热运动) of free electrons in system.
+Gradient and magnetic field instab..." />
+    <meta name="keywords" content="" />
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://yaogzblog.github.io/sharing.github.io/">
+        <img src="https://yaogzblog.github.io/sharing.github.io//images/avatar.png?v=1595233627547" class="site-logo">
+        <h1 class="site-title">love and share</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="/https://yaogzblog.github.io/sharing.github.io/" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      分享我所热爱
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://yaogzblog.github.io/sharing.github.io//atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">Principles of fMRI--Noise, Design and Pre-processing</h2>
+            <div class="post-date">2020-07-20</div>
+            
+            <div class="post-content" v-pre>
+              <h1 id="artifacts-and-noise">Artifacts and Noise</h1>
 <p><strong>Sourse of noise</strong></p>
 <ul>
 <li>Thermal motion(热运动) of free electrons in system.</li>
@@ -119,66 +201,46 @@ Montreal Neurological Institute(MNI)<br>
 <li>Can increase signal-to-noise, validate distributional assumptions and remove artifacts.<br>
 When doing spatial filtering we often use a Gaussian Kernel and the size of the Kernel is determined by the full-width at half-maximum(FWHM), which measures the width of the Kernel at 50% of its peal value.</li>
 </ul>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Principles of fMRI--Basics]]></title>
-        <id>https://yaogzblog.github.io/sharing.github.io/post/principles-of-fmri/</id>
-        <link href="https://yaogzblog.github.io/sharing.github.io/post/principles-of-fmri/">
-        </link>
-        <updated>2020-07-01T07:14:01.000Z</updated>
-        <content type="html"><![CDATA[<h1 id="part1-multiple-measures"><strong>Part1  Multiple Measures</strong></h1>
-<p>Brain imaging can be separated into two major categories, which are<br>
-<strong>structural</strong> brain imaging and <strong>functional</strong> brain imaging</p>
-<p><strong>Structural changes</strong></p>
-<ul>
-<li>Gray matter</li>
-<li>White matter tracts</li>
-<li>Vasculature<br>
-<strong>Functional relationship</strong></li>
-<li>Task-related activity</li>
-<li>Brain connectivity</li>
-<li>Physiological connectivity</li>
-</ul>
-<h1 id="part2-analysis-of-fmri-data"><strong>Part2 Analysis of fMRI data</strong></h1>
-<p>fMRI data: Each image consits of ~100,000 'voxels'<br>
-<strong>volume</strong>:  A single volume is made up of individual cuboid elements called voxels<br>
-Each <strong>voxel</strong> correspomds to a spatial location and has a number associated with it that represents its intensity.<br>
-Bold fMRI: Blood Oxygenation level<br>
-Hemodynamic response function(HSF): repsent changes in the fMRI signal triggered by neuroual activity</p>
-<h1 id="three-main-goals-of-fmri-data"><strong>Three main goals of fMRI data</strong></h1>
-<p>First: Localization</p>
-<p>Sencond: Connectivity</p>
-<ul>
-<li>determine how different brain regions are connected with one another</li>
-<li>varities of connectivity:</li>
-<li>Functional connectivity<br>
-- 'seed'-based<br>
-- psychophysiological interactions</li>
-<li>Effective connectivity<br>
-- path analysis mediation<br>
-- Granger causality<br>
-- dynamic causal modeling</li>
-<li>Multivariate connectivity<br>
-- independent / princioal componts<br>
-- graphical models</li>
-</ul>
-<p>Third: Prediction<br>
-use a person's brain activity to predict their preceptions, behavior, or health status<br>
-Applications: Depression, Chronic pain, Anxiety, Drug abuse, Emotion</p>
-<h1 id="part3-fmri-data-structure-terminology"><strong>Part3 fMRI Data Structure &amp;Terminology</strong></h1>
-<p><strong>Temporal resolution</strong>: determines our ability to separate brain events in times, and it's determined by how quickly each individual image is required(TR)<br>
-<strong>Spatial resolution</strong>: determines our ability to distinguish changes in an image across different spatial location<br>
-<strong>Structural(T1) images:</strong></p>
-<ul>
-<li>High spatial resolution</li>
-<li>Low temporal resolution</li>
-<li>Can different types of tissue<br>
-<strong>Functional(T2) images:</strong></li>
-<li>Lower spatial resolution</li>
-<li>Higher temporal resulation</li>
-<li>Can relate changes in signal to an experimental manipulation</li>
-</ul>
-]]></content>
-    </entry>
-</feed>
+
+            </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://yaogzblog.github.io/sharing.github.io/post/principles-of-fmri/">
+                  <h3 class="post-title">
+                    Principles of fMRI--Basics
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+
+
+  </body>
+</html>
